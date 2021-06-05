@@ -65,6 +65,11 @@ p {
 
 .container {
   padding: 0 30px;
-  max-width: 1440px;
+  max-width: 1230px;
   margin: 0 auto;
+}
+
+.flex-just {
+  display: flex;
+  justify-content: space-between;
 }
