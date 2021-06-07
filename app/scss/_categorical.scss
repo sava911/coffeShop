@@ -1,0 +1,29 @@
+.categorical {
+    margin-bottom: 10px;
+
+    &__items {
+        flex-wrap: wrap;
+
+
+    }
+
+    &__item {
+        text-align: center;
+        border: 1px solid #ccc;
+        width: 285px;
+        height: 200px;
+        margin-bottom: 10px;
+        background-color: #fafafa;
+
+
+    }
+
+    &__img {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    &__title {
+        font-size: 18px;
+    }
+}
