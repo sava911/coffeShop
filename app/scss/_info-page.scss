@@ -1,0 +1,39 @@
+.info {
+    margin-bottom: 20px;
+
+    &__left {
+        background-color: #fafafa;
+        margin-right: 20px;
+    }
+
+    &__title {
+        margin-bottom: 10px;
+    }
+
+    &__text {
+        margin-bottom: 10px;
+    }
+
+    &__right {
+
+        background-size: cover;
+        width: 100%;
+        padding: 25px;
+    }
+
+    &__right--text {
+        padding-top: 50px;
+        color: #fff;
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    &__right--btn {
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 10px;
+
+
+    }
+
+}

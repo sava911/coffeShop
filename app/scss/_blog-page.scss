@@ -1,0 +1,48 @@
+.blog {
+    margin-bottom: 20px;
+
+
+    &__title {
+        margin-bottom: 20px;
+    }
+
+    &__inner {
+        justify-content: start;
+    }
+
+    &__item {
+        background-color: #fafafa;
+        padding: 10px;
+
+    }
+
+    &__item~&__item {
+
+        margin-left: 10px;
+    }
+
+    &__item--wrapper {
+        justify-content: start;
+    }
+
+    &__img {
+        margin-right: 25px;
+    }
+
+    &__item--title {
+        padding-top: 20px;
+    }
+
+    &__text {
+        margin-bottom: 10px;
+        padding-left: 30px;
+    }
+
+    &__btn {
+        border: 1px solid #ccc;
+        padding: 10px;
+        margin-left: 30px;
+    }
+
+
+}
