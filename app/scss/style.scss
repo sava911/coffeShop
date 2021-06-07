@@ -7,58 +7,6 @@
 @import "categorical";
 @import "product__tabs";
 
-.product {
-    &__items {}
-
-    &__text {
-        margin-bottom: 10px;
-    }
-}
-
-.product__item {
-    background-color: #fafafa;
-    width: 300px;
-    text-align: center;
-    padding: 10px;
-}
-
-
-
-
-
-.product__info {
-    text-align: left;
-    color: #9d9d9d;
-    font-size: 13px;
-
-}
-
-.product__lines {
-    width: 42%;
-}
-
-.product__line {
-
-    width: 100%;
-    max-width: 123px;
-    height: 4px;
-    background-color: #b7b7b7;
-    position: relative;
-    margin-bottom: 3px;
-
-    span {
-        position: absolute;
-        top: 0;
-        left: 0;
-        height: 100%;
-        background-color: #000;
-    }
-}
-
-.product__line--text {}
-
-.product__lines--wrapper {}
-
 
 
 @import "media";

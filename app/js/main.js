@@ -22,4 +22,5 @@ $(function () {
         $($(this).attr("href")).addClass("tabs-contant--active");
     });
 
+
 });

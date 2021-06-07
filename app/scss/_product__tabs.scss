@@ -14,10 +14,156 @@
 }
 
 
-.tabs-contant {
+.tabs-contant,
+.tabs-pagination {
     display: none;
 }
 
 .tabs-contant--active {
     display: block;
+}
+
+.tabs-pagination--active {
+    display: block;
+}
+
+.product {
+    &__items {}
+
+    &__text {
+        margin-bottom: 10px;
+    }
+
+    &__item {
+        background-color: #fafafa;
+        width: 300px;
+        text-align: center;
+        padding: 10px;
+    }
+
+    &__info {
+        text-align: left;
+        color: #9d9d9d;
+        font-size: 13px;
+
+    }
+
+    &__lines {
+        width: 42%;
+        margin-bottom: 10px;
+    }
+
+    &__line {
+
+        width: 100%;
+        max-width: 123px;
+        height: 4px;
+        background-color: #b7b7b7;
+        position: relative;
+        margin-bottom: 3px;
+
+        span {
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 100%;
+            background-color: #000;
+        }
+    }
+
+    &__value {
+        font-family: "SFProDisplay-Semibold", sans-serif;
+        font-weight: 600;
+        font-size: 18px;
+        color: #000;
+
+    }
+
+    &__value--sum {
+        padding-top: 10px;
+    }
+
+    &__btn--inner {
+
+        display: flex;
+    }
+
+    &__btn--quantity {
+        width: 30px;
+        height: 40px;
+        display: block;
+    }
+
+    &__btn--result {
+        width: 50px;
+        border: none;
+        background-color: #fafafa;
+        height: 40px;
+        text-align: center;
+        display: block;
+    }
+
+    &__tab--weight {
+        margin-bottom: 10px;
+    }
+
+
+    &__bottom--select {
+        font-size: 12px;
+        padding: 13px 0;
+
+        span {
+            border-bottom: 1px dashed #000;
+            position: relative;
+
+            &::after {
+                font-family: 'icomoon' !important;
+                content: "\ea50";
+                position: absolute;
+                top: -5px;
+                right: -20px;
+                font-size: 14px;
+                color: #000;
+                transform: rotate(180deg);
+                font-weight: 600;
+            }
+        }
+    }
+
+    &__bottom--btn {
+        background-color: #000;
+        color: #fff;
+        padding: 15px 15px 15px 30px;
+        border-radius: 17px;
+        font-weight: 700;
+        position: relative;
+
+        &::after {
+            font-family: 'icomoon' !important;
+            content: "\ead2";
+            position: absolute;
+            top: 13px;
+            left: 10px;
+            font-size: 14px;
+            color: #fff;
+            transform: rotate(180deg);
+            font-weight: 600;
+        }
+    }
+
+
+}
+
+
+.tab--weight__btn {
+    width: 60px;
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.tab--weight__btn--activ {
+    background-color: #03a9f4;
+    color: #fff;
+    background-color: #03a9f4;
 }
