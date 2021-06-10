@@ -165,5 +165,21 @@
 .tab--weight__btn--activ {
     background-color: #03a9f4;
     color: #fff;
-    background-color: #03a9f4;
+
+}
+
+.button-product {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.button-product__title {
+    margin-bottom: 10px;
+}
+
+.button-product__btn {
+    width: 400px;
+    padding: 10px;
+    background-color: rgb(119, 68, 68);
+    color: #fff;
 }

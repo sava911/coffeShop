@@ -74,3 +74,25 @@ p {
   display: flex;
   justify-content: space-between;
 }
+
+.title {
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.breadcrumbs {
+  margin-bottom: 10px;
+  padding-top: 10px;
+
+  li {
+    display: inline-block;
+    font-size: 15px;
+    line-height: 18px;
+    color: #03a9f4;
+
+
+    &:last-child {
+      color: #C4C4C4;
+    }
+  }
+}
